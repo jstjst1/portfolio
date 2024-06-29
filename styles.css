@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #0a1f44, #071a36);
+    /* This gradient will give the fading effect as the user scrolls */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 80px 0;
+    min-height: 100vh; /* Ensures sections take at least the full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Container to Center Content */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Home Section */
+#home h1 {
+    font-size: 3em;
+}
+
+#home p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about h2, #skills h2, #projects h2, #contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Projects Section */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    font-size: 1em;
+}
+
+.project a {
+    color: #00f7ff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2em;
+}
